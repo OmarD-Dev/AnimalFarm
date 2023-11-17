@@ -1,6 +1,6 @@
 package org.yu.farm;
 
-public abstract class Animal {
+public abstract class Animal implements LifeForm {
 
     protected Animal(AnimalType species, String name) {
         this.species = species;

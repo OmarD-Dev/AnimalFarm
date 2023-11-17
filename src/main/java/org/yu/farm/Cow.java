@@ -15,5 +15,8 @@ public class Cow extends Animal {
         System.out.println("Tweet tweet tweet!");
         System.out.println("ooops.  I meant \"Moooooo\" ");
     }
-
+    @Override
+    public void eatUnderYonderTree() {
+        System.out.println("shmack shmack");
+    }
 }

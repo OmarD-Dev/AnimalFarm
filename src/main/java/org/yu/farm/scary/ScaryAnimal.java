@@ -8,9 +8,15 @@ public class ScaryAnimal extends Animal {
         super(species, name);
     }
 
+
     @Override
     public void makeNoise() {
         System.out.println("OAWHoooooooooooooooOOO!");
 
+    }
+
+    @Override
+    public void eatUnderYonderTree() {
+        System.out.println("That's finger-licking good.");
     }
 }
